@@ -1,5 +1,5 @@
-# Aplicación de Creación y Asignación de Evaluaciones a Esttudiantes
-Esta aplicación te permite gestionar un sistema de adopción de mascotas. Puedes agregar nuevos perros rescatados, agregar nuevos adoptantes y realizar adopciones. 
+# Aplicación de Creación y Asignación de Evaluaciones a Estudiantes
+Esta aplicación permite gestionar un sistema de asignación de Evaluaciones a Estudiantes. Se pueden agregar neuvas evaluaciones, nuevos estudiantes y asignarlas a los mismos. 
 
 La aplicación sigue un diseño de arquitectura de 3 capas, que es un patrón comúnmente utilizado en el desarrollo web. Este diseño divide la aplicación en tres partes:
 
