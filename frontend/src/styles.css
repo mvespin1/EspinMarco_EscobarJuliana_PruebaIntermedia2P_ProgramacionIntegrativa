@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Estilos generales para los componentes */
+.component-container {
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para AdoptionForm */
+  .adoption-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para AdoptionList y AvailableList */
+  .list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .list-item {
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1 0 200px;
+  }
+  
+  /* Estilos para AddDogForm y AddAdopterForm */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para los títulos (h1) */
+  .title {
+    color: #3498db;
+    margin-bottom: 15px;
+  }
+  

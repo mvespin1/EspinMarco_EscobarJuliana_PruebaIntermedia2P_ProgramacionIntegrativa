@@ -4,16 +4,16 @@ import PropTypes from 'prop-types';
 function AvailableList({ dogs, adopters }) {
     return (
         <div>
-            <h2>Perros disponibles 🐶</h2>
+            <h2>Estudiantes 👤</h2>
             <ul>
                 {dogs.map((dog) => (
-                    <li key={dog.id}>🐶 {dog.name}</li>
+                    <li key={dog.id}>👤 {dog.name}</li>
                 ))}
             </ul>
-            <h2>Adoptantes disponibles 👤</h2>
+            <h2>Evaluaciones asignadas 📄</h2>
             <ul>
                 {adopters.map((adopter) => (
-                    <li key={adopter.id}>👤 {adopter.name}</li>
+                    <li key={adopter.id}>📄 {adopter.name}</li>
                 ))}
             </ul>
         </div>

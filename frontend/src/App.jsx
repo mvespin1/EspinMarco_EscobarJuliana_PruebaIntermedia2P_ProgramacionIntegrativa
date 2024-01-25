@@ -71,17 +71,96 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <h1>Lista de Adopciones</h1>
-      <AdoptionList adoptions={adoptions} dogs={dogs} adopters={adopters} />
-      <h1>Disponibles para adopción</h1>
-      <AvailableList dogs={dogs} adopters={adopters} />
-      <h1>Agregar nuevo perro</h1>
-      <AddDogForm onDogSubmit={handleDogSubmit} />
-      <h1>Agregar nuevo adoptante</h1>
+    <div style={{ border: '2px solid #3498db', borderRadius: '10px', padding: '20px', marginBottom: '20px' }}>
+      <h1 style={{ marginBottom: '15px', textAlign: 'center', color: 'black' }}>PRUEBA INTERMEDIA</h1>
+
+      <p style={{ fontSize: '16px', lineHeight: '1.5', color: 'darkgray' }}>
+        Integrantes.
+      </p>
+
+      <ul style={{ listStyleType: 'square', paddingLeft: '20px', color: 'green' }}>
+        <li>Juliana Escobar</li>
+        <li>Marco Espín</li>
+      </ul>
+
+      <h1 style={{ marginBottom: '15px' }}>Creación de Evaluación</h1>
       <AddAdopterForm onAdopterSubmit={handleAdopterSubmit} />
-      <h1>Nueva Adopción</h1>
+
+<br />
+
+      <label>Pregunta 1</label>
+      <select>
+        <option value="">Selecciona una opción</option>
+        <option value="opcion1">¿Cuál es la capital de Francia?</option>
+        <option value="opcion2">¿Cuál es el símbolo químico del oxígeno?</option>
+        <option value="opcion2">¿En qué año se fundó la ONU?</option>
+        <option value="opcion2">¿Quién escribió "Cien años de soledad"?</option>
+        <option value="opcion2">¿Cuál es el componente principal del aire?</option>
+      </select>
+
+      <br />
+
+      <label>Pregunta 2</label>
+      <select>
+        <option value="">Selecciona una opción</option>
+        <option value="opcion1">¿Cuál es la capital de Francia?</option>
+        <option value="opcion2">¿Cuál es el símbolo químico del oxígeno?</option>
+        <option value="opcion2">¿En qué año se fundó la ONU?</option>
+        <option value="opcion2">¿Quién escribió "Cien años de soledad"?</option>
+        <option value="opcion2">¿Cuál es el componente principal del aire?</option>
+      </select>
+
+      <br />
+
+      <label>Pregunta 3</label>
+      <select>
+        <option value="">Selecciona una opción</option>
+        <option value="opcion1">¿Cuál es la capital de Francia?</option>
+        <option value="opcion2">¿Cuál es el símbolo químico del oxígeno?</option>
+        <option value="opcion2">¿En qué año se fundó la ONU?</option>
+        <option value="opcion2">¿Quién escribió "Cien años de soledad"?</option>
+        <option value="opcion2">¿Cuál es el componente principal del aire?</option>
+      </select>
+
+      <br />
+
+
+      <label>Pregunta 4</label>
+      <select>
+        <option value="">Selecciona una opción</option>
+        <option value="opcion1">¿Cuál es la capital de Francia?</option>
+        <option value="opcion2">¿Cuál es el símbolo químico del oxígeno?</option>
+        <option value="opcion2">¿En qué año se fundó la ONU?</option>
+        <option value="opcion2">¿Quién escribió "Cien años de soledad"?</option>
+        <option value="opcion2">¿Cuál es el componente principal del aire?</option>
+      </select>
+
+      <br />
+
+
+      <label>Pregunta 5</label>
+      <select>
+        <option value="">Selecciona una opción</option>
+        <option value="opcion1">¿Cuál es la capital de Francia?</option>
+        <option value="opcion2">¿Cuál es el símbolo químico del oxígeno?</option>
+        <option value="opcion2">¿En qué año se fundó la ONU?</option>
+        <option value="opcion2">¿Quién escribió "Cien años de soledad"?</option>
+        <option value="opcion2">¿Cuál es el componente principal del aire?</option>
+      </select>
+
+
+      <h1>Agregar Estudiante</h1>
+      <AddDogForm onDogSubmit={handleDogSubmit} />
+
+      <h1>Asignación de evaluaciones a un estudiante</h1>
       <AdoptionForm dogs={dogs} adopters={adopters} onAdoptionSubmit={handleAdoptionSubmit} />
+      <h1>Presentación de Evaluaciones en Linea</h1>
+      <AdoptionList adoptions={adoptions} dogs={dogs} adopters={adopters} />
+      <h1>Disponibilidad de Evaluaciones y Estudiantes</h1>
+      <AvailableList dogs={dogs} adopters={adopters} />
+
+
+
     </div>
   );
 };

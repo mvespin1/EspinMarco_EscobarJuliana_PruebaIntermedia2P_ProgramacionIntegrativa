@@ -11,14 +11,14 @@ const AddAdopterForm = ({ onAdopterSubmit }) => {
             onAdopterSubmit(adopterName);
             setAdopterName('');
         } else {
-            console.error('Debe ingresar un nombre para el adoptante.');
+            console.error('Debe ingresar un nombre para la evaluación.');
         }
     };
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type="text" value={adopterName} onChange={(e) => setAdopterName(e.target.value)} placeholder="Nombre del adoptante 👤" />
-            <button type="submit">Agregar adoptante</button>
+            <input type="text" value={adopterName} onChange={(e) => setAdopterName(e.target.value)} placeholder="Nombre de la evaluación📄" />
+            <button type="submit">Agregar evaluación</button>
         </form>
     );
 };

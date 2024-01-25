@@ -58,5 +58,45 @@ module.exports = [
     "id": 12,
     "dogId": "4",
     "adopterId": "4"
+  },
+  {
+    "id": 13,
+    "dogId": "3",
+    "adopterId": "1"
+  },
+  {
+    "id": 14,
+    "dogId": "1",
+    "adopterId": "4"
+  },
+  {
+    "id": 15,
+    "dogId": "3",
+    "adopterId": "4"
+  },
+  {
+    "id": 16,
+    "dogId": "2",
+    "adopterId": "4"
+  },
+  {
+    "id": 17,
+    "dogId": "4",
+    "adopterId": "2"
+  },
+  {
+    "id": 18,
+    "dogId": "4",
+    "adopterId": "4"
+  },
+  {
+    "id": 19,
+    "dogId": "4",
+    "adopterId": "4"
+  },
+  {
+    "id": 20,
+    "dogId": "4",
+    "adopterId": "4"
   }
 ];
